@@ -68,7 +68,7 @@ public class GeneratedCastle : MonoBehaviour {
             {
                 Vector3 basePosition = new Vector3(SpawnCenter.x + radius, 0, SpawnCenter.z);
 
-                GameObject clone = Instantiate(LargeTower01, basePosition, Quaternion.Euler(-90, 0, rotationDegreesPerObject * i)) as GameObject;
+                GameObject clone = Instantiate(LargeTower01, basePosition, Quaternion.Euler(-0, 0, rotationDegreesPerObject * i)) as GameObject;
                 clone.transform.RotateAround(SpawnCenter, Vector3.up, rotationDegreesPerObject * i);
                 LargeTower01List.Add(clone);
             }
@@ -94,7 +94,7 @@ public class GeneratedCastle : MonoBehaviour {
             {
                 Vector3 basePosition = new Vector3(SpawnCenter.x + radius, 0, SpawnCenter.z);
 
-                GameObject clone = Instantiate(SmallTower01, basePosition, Quaternion.Euler(-90, 0, rotationDegreesPerObject * i)) as GameObject;
+                GameObject clone = Instantiate(SmallTower01, basePosition, Quaternion.Euler(-0, 0, rotationDegreesPerObject * i)) as GameObject;
                 clone.transform.RotateAround(SpawnCenter, Vector3.up, rotationDegreesPerObject * i);
                 SmallTower01List.Add(clone);
             }
@@ -112,7 +112,7 @@ public class GeneratedCastle : MonoBehaviour {
             {
                 Vector3 basePosition = new Vector3(SpawnCenter.x + radius, 0, SpawnCenter.z);
 
-                GameObject clone = Instantiate(SmallTower02, basePosition, Quaternion.Euler(-90, 0, rotationDegreesPerObject * i)) as GameObject;
+                GameObject clone = Instantiate(SmallTower02, basePosition, Quaternion.Euler(-0, 0, rotationDegreesPerObject * i)) as GameObject;
                 clone.transform.RotateAround(SpawnCenter, Vector3.up, rotationDegreesPerObject * i);
                 SmallTower02List.Add(clone);
             }
@@ -135,7 +135,7 @@ public class GeneratedCastle : MonoBehaviour {
                 else tower1 = (GameObject)LargeTower01List[i - 1];
                 GameObject tower2 = (GameObject)LargeTower01List[i];
 
-                GameObject clone = Instantiate(LargeWall01, SpawnCenter, Quaternion.Euler(-90, 0, 0)) as GameObject;
+                GameObject clone = Instantiate(LargeWall01, SpawnCenter, Quaternion.Euler(-0, 0, 0)) as GameObject;
 
                 //stretch wall
                 float desiredLength = calculateWallLength(tower1, tower2);
@@ -172,7 +172,7 @@ public class GeneratedCastle : MonoBehaviour {
                 else tower1 = (GameObject)SmallTower01List[i - 1];
                 GameObject tower2 = (GameObject)SmallTower01List[i];
 
-                GameObject clone = Instantiate(LargeWall01, SpawnCenter, Quaternion.Euler(-90, 0, 0)) as GameObject;
+                GameObject clone = Instantiate(LargeWall01, SpawnCenter, Quaternion.Euler(-0, 0, 0)) as GameObject;
 
                 //stretch wall
                 float desiredLength = calculateWallLength(tower1, tower2);
@@ -205,7 +205,7 @@ public class GeneratedCastle : MonoBehaviour {
                 else tower1 = (GameObject)SmallTower02List[i - 1];
                 GameObject tower2 = (GameObject)SmallTower02List[i];
 
-                GameObject clone = Instantiate(SmallWall01, SpawnCenter, Quaternion.Euler(-90, 0, 0)) as GameObject;
+                GameObject clone = Instantiate(SmallWall01, SpawnCenter, Quaternion.Euler(-0, 0, 0)) as GameObject;
 
                 //stretch wall
                 float desiredLength = calculateWallLength(tower1, tower2);
