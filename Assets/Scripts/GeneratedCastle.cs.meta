@@ -1,10 +1,16 @@
 fileFormatVersion: 2
 guid: 1405b93bb2907744e9c6b8805c0b3e8f
-timeCreated: 1452497852
-licenseType: Free
+timeCreated: 1453674726
+licenseType: Pro
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - SpawnLocation: {instanceID: 0}
+  - LargeTower01: {fileID: 151494, guid: 4543c93fc6368864a8a19304308b5350, type: 2}
+  - SmallTower01: {fileID: 197170, guid: c2de6ac45dc43d640b9ed273ef634c4e, type: 2}
+  - SmallTower02: {fileID: 108856, guid: 60a093b6f5afde24dafe0e7375a1b657, type: 2}
+  - LargeWall01: {fileID: 142202, guid: 29c9f2c3f2da51547a2fa8d26a166a9c, type: 2}
+  - SmallWall01: {fileID: 155728, guid: 30a1c5f2ee205e94ebff80a56d667995, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
